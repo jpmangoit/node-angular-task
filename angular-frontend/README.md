@@ -1,6 +1,23 @@
 ### Angular Frontend
 
-On the frontend, you can test the following URLs:
+**Setup Requirements:**
+- Angular CLI version 16
+- Node.js version 18
+
+**Installation and Running:**
+
+1. **Install Packages:**
+   ```bash
+   npm install
+   ```
+
+2. **Start the Project:**
+   ```bash
+   ng serve
+   ```
+   The project will run on port `4200`.
+
+**Testing URLs:**
 
 1. **Regular Component**
    - **URL:** `http://localhost:4200/`
@@ -12,3 +29,4 @@ On the frontend, you can test the following URLs:
 
 These URLs allow you to test both a component that is loaded eagerly and a module that is loaded lazily.
 
+---
